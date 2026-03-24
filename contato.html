@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <table width= 100%> 
+    <tr>
+        <th><a href="index.html">Sobre mim</a></th>
+        <th><a href="formaçao.html">Formação</a></th>
+        <th><a href="portfolio.html">Portfólio</a></th>
+        <th><a href="contato.html">Contato</a></th>
+    </tr>
+    </table>
+<br>
+   <main>
+    <h1>Contato</h1>
+<br>
+    <h2>
+        Gratidão por ter chego até aqui! Caso queira me contatar para troca de experiência ou possível trabalho preencha por favor os campos abaixo!
+    </h2>
+   </main>
+  <form id="meuFormulario" style="max-width: 500px; margin: 40px auto; text-align: left;">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required style="width: 100%; padding: 10px; margin: 10px 0 20px 0; border-radius: 5px; border: 1px solid #3498db; background: #1b263b; color: white;">
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 10px 0 20px 0; border-radius: 5px; border: 1px solid #3498db; background: #1b263b; color: white;">
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="5" required style="width: 100%; padding: 10px; margin: 10px 0 20px 0; border-radius: 5px; border: 1px solid #3498db; background: #1b263b; color: white; resize: vertical;"></textarea>
+
+    <button type="submit" id="btnEnviar" style="width: 100%; padding: 15px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; text-transform: uppercase; font-weight: bold;">Enviar Mensagem</button>
+</form>
+
+<div id="statusEnvio" style="text-align: center; margin-top: 20px; font-weight: bold;"></div>
+
+<script src="js.js"></script>
+</body>
+</html>
